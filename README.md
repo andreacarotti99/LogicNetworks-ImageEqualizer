@@ -1,5 +1,5 @@
-# progettoRetiLogiche
-Progetto di Reti Logiche 2020/2021 - Image Equalizer
+# Progetto di Reti Logiche - 2020
+Progetto di Reti Logiche 2020/2021 @Politecnico Di Milano - Image Equalizer
 
 ## Authors
 [Matteo Crugnola](https://github.com/crugio48)
