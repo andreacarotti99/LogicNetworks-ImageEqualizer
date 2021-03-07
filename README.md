@@ -2,8 +2,8 @@
 Progetto di Reti Logiche 2020/2021 @Politecnico Di Milano - Image Equalizer
 
 ## Authors
-[Matteo Crugnola](https://github.com/crugio48)
-[Andrea Carotti](https://github.com/andreacarotti99)
+* [Matteo Crugnola](https://github.com/crugio48)
+* [Andrea Carotti](https://github.com/andreacarotti99)
 
 ## General Overview
 
