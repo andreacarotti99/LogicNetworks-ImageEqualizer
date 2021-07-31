@@ -18,7 +18,8 @@ The version to be developed does not require the implementation of the standard 
 ```
 DELTA_VALUE = MAX_PIXEL_VALUE – MIN_PIXEL_VALUE
 SHIFT_LEVEL = (8 – FLOOR(LOG2(DELTA_VALUE +1)))
-TEMP_PIXEL = (CURRENT_PIXEL_VALUE - MIN_PIXEL_VALUE) << SHIFT_LEVEL NEW_PIXEL_VALUE = MIN( 255 , TEMP_PIXEL)
+TEMP_PIXEL = (CURRENT_PIXEL_VALUE - MIN_PIXEL_VALUE) << SHIFT_LEVEL 
+NEW_PIXEL_VALUE = MIN( 255 , TEMP_PIXEL)
 ```
 
 Where MAX_PIXEL_VALUE and MIN_PIXEL_VALUE are the maximum and minimum value of the image pixels, CURRENT_PIXEL_VALUE is the value of the pixel to be transformed, and NEW_PIXEL_VALUE is the value of the new pixel.
