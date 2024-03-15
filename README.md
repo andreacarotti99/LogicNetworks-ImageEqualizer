@@ -29,6 +29,11 @@ The size of the image is defined by 2 bytes, stored starting from address 0. The
 The image is stored starting from address 2 and in contiguous bytes. So the byte at address 2 is the first pixel of the first line of the image.
 The equalized image must be written into memory immediately after the original image.
 
+## Datapath Architecture
+
+![General datapath of the entire architecture](img/datapath.png)
+
+
 ## Data
 The dimensions of the image, each 8 bits in size, are stored in a memory with addressing to the Byte starting from position 0: the byte in position 0 refers to the number of columns (N -COL), the byte in position 1 it refers to the number of lines (N-RIG).
 The pixels of the image, each of an 8-bit, are stored in memory with addressing to the Byte starting from position 2.
